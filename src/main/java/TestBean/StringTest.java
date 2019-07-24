@@ -1,3 +1,4 @@
+package TestBean;
 
 import org.junit.Test;
 

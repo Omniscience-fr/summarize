@@ -1,3 +1,5 @@
+package TestBean;
+
 import org.junit.Test;
 
 import java.util.ArrayDeque;
