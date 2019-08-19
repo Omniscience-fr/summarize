@@ -13,6 +13,6 @@ public class ArrayDequeTest {
     @Test
     public void show(){
         ArrayDeque arrayDeque = new ArrayDeque();
-
+        arrayDeque.add("1");
     }
 }

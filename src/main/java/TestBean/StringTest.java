@@ -13,15 +13,26 @@ import org.apache.axis.utils.ClassUtils;
  */
 public class StringTest {
 
+
     @Test
-    public void testString(){
+    public void Strings(){
         String s = "JAVA编程思想";
         System.out.println(s);
     }
 
+//    @Test
+//    public void show(HttpServletRequest request){
+//        HttpSession session = request.getSession();
+//        session.invalidate();
+//    }
+
     @Test
-    public void show(HttpServletRequest request){
-        HttpSession session = request.getSession();
-        session.invalidate();
+    public void StringBuffers(){
+        StringBuffer s = new StringBuffer();
+        s.append("JAVAAAAAAAASDDDBB");
+        System.out.println(s.length());
+
     }
+
+
 }
